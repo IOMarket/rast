@@ -1,0 +1,120 @@
+.portfolioFilter {
+    margin-bottom: 25px;
+}
+.portfolioFilter a { 
+    margin-right: 10px; 
+	text-decoration:none;
+	color: #434343;
+	font-size: 17px;
+	text-transform: capitalize;
+    font-weight: 700;
+    border: 2px solid transparent;
+    display: inline-block;
+    padding: 6px 25px;
+    border-radius: 25px;
+    -moz-border-radius: 25px;
+    -o-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.portfolioFilter a:hover {
+	color: #2c2c2c !important;
+    border-color: #2c2c2c;
+    background: none;
+	}
+.portfolioFilter a.current { 
+    color: #2c2c2c;
+    border-color: #2c2c2c;
+    background: none;
+}
+.portfolioFilter ul {
+    list-style: none;
+    padding-left: 0px;
+}
+.portfolioFilter ul li {
+    margin-bottom: 5px;
+}
+.isotope-item {
+    z-index: 2;
+}
+.isotope-hidden.isotope-item {
+    pointer-events: none;
+    z-index: 1;
+}
+#iso [class^="col-"], #iso [class*=" col-"] {
+    padding: 0px;
+}
+.isotope,
+.isotope .isotope-item {
+  /* change duration value to whatever you like */
+  -webkit-transition-duration: 0.8s;
+     -moz-transition-duration: 0.8s;
+      -ms-transition-duration: 0.8s;
+       -o-transition-duration: 0.8s;
+          transition-duration: 0.8s;
+}
+.isotope {
+  -webkit-transition-property: height, width;
+     -moz-transition-property: height, width;
+      -ms-transition-property: height, width;
+       -o-transition-property: height, width;
+          transition-property: height, width;
+}
+.isotope .isotope-item {
+  -webkit-transition-property: -webkit-transform, opacity;
+     -moz-transition-property:    -moz-transform, opacity;
+      -ms-transition-property:     -ms-transform, opacity;
+       -o-transition-property:      -o-transform, opacity;
+          transition-property:         transform, opacity;
+}
+/**** disabling Isotope CSS3 transitions ****/
+.isotope.no-transition,
+.isotope.no-transition .isotope-item,
+.isotope .isotope-item.no-transition {
+  -webkit-transition-duration: 0s;
+     -moz-transition-duration: 0s;
+      -ms-transition-duration: 0s;
+       -o-transition-duration: 0s;
+          transition-duration: 0s;
+}
+.img-box {
+    position: relative;
+    float: left;
+    width: 100%;
+}
+.port-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #565d67;
+    top: 0px;
+    padding: 30px;
+    color: #fff;
+    display: none;
+    padding-top: 17%;
+}
+.port-overlay .fa {
+    color: #fff;
+    font-size: 44px;
+    webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.port-overlay h2 {
+    font-size: 22px;
+    color: #fff;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.port-overlay p {
+    color: #fff;
+}
+.port-overlay .fa:hover {
+    -webkit-transform: translateY(-3px) scale(0.9);
+    -moz-transform: translateY(-3px) scale(0.9);
+    -ms-transform: translateY(-3px) scale(0.9);
+    transform: translateY(-3px) scale(0.9);
+    color: #ea6060;
+}
